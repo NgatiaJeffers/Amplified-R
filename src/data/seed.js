@@ -1,0 +1,42 @@
+export const products = [
+    {
+        id: 1,
+        title: 'J Cole',
+        description: 'On-demand sand castle construction expertise.',
+        url: '#',
+        // votes: generateVoteCount(),
+        votes: 56,
+        submitterAvatarUrl: 'img/j-cole.jpg',
+        productImageUrl: 'img/j-cole.jpg',
+    },
+    {
+        id: 2,
+        title: 'Rick',
+        description: 'On-demand sand castle construction expertise.',
+        url: '#',
+        // votes: generateVoteCount(),
+        votes: 90,
+        submitterAvatarUrl: 'img/j-cole.jpg',
+        productImageUrl: 'img/j-cole.jpg',
+    },
+    {
+        id: 3,
+        title: 'Morty',
+        description: 'On-demand sand castle construction expertise.',
+        url: '#',
+        // votes: generateVoteCount(),
+        votes: 60,
+        submitterAvatarUrl: 'img/j-cole.jpg',
+        productImageUrl: 'img/j-cole.jpg',
+    },
+    {
+        id: 4,
+        title: 'Rick & Morty',
+        description: 'On-demand sand castle construction expertise.',
+        url: '#',
+        // votes: generateVoteCount(),
+        votes: 30,
+        submitterAvatarUrl: 'img/j-cole.jpg',
+        productImageUrl: 'img/j-cole.jpg',
+    }
+]
