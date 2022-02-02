@@ -4,9 +4,22 @@ import cole from '../../img/j-cole.jpg'
 
 // Child component
 class Product extends React.Component {
-    handleUpVote() {
+    constructor(props) {
+        super(props);   // always call this first
+
+        // custom method bindings here
+        this.state = { products: 0 };
+        this.handleUpVote = this.handleUpVote.bind(this);
+    };
+
+    handleUpVote = () => {
         this.props.handleProductUpVote(this.props.id);
-    }
+    };
+
+    componentDidMount() {
+        this.setState({ products: [] })
+    };
+
 
     render() {
         let {
